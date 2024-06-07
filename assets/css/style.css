@@ -42,6 +42,22 @@ h1 {
 
 }
 
+#menu {
+    font-size: 115%;
+    list-style-type: none;
+    letter-spacing: 1.5px;
+
+}
+
+#menu > li {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.live {
+    border-bottom: 2px solid rgb(27, 255, 7);
+}
+
 /* Main */
 main {
     background-color: pink;
