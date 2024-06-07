@@ -111,11 +111,17 @@ header a {
 
 /* Main */
 main {
-    background-color: pink;
     /* Force main element to take any excess space to push down footer */
     flex: 1 0 auto;
     padding: 1rem;
     margin-top: 4rem;
+}
+
+/* Top Dog section*/
+#top-dog {
+    height: 800px;
+    width: 100%;
+    background: url("../images/pexels-lucasandrade-20139245.jpg") no-repeat center center/cover;
 }
 
 /* Footer */
