@@ -122,3 +122,26 @@ main {
 footer {
     background-color: yellow;
 }
+
+/* Media query: tablets and larger (768px and larger) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-left: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-right: 1rem;
+    }
+    .navigation-toggle-label {
+        display: none;
+    }
+}
