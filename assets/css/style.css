@@ -26,7 +26,7 @@ header {
     width: 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 1rem;
 
@@ -84,6 +84,29 @@ nav {
 /* navigation toggle */
 #navigation-toggle:checked~nav {
     display: block;
+}
+
+.navigation-toggle-label {
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+}
+
+header {
+    justify-content: space-between;
+}
+
+header a {
+    flex: 1;
+}
+
+#navigation-toggle {
+    position: absolute;
+    right: 1rem;
 }
 
 /* Main */
