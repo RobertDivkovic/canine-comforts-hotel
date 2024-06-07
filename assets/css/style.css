@@ -119,8 +119,19 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: yellow;
+#social-net {
+   text-align: center;
+   display: flex;
+   padding: 15px 0;
+   justify-content: space-evenly;
+   list-style-type: none;
+}
+
+#social-net i {
+    font-size: 150%;
+    padding: 25%;
+    color: rgb(41, 40, 40);
+
 }
 
 /* Media query: tablets and larger (768px and larger) */
