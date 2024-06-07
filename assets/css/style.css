@@ -58,6 +58,17 @@ h1 {
     border-bottom: 2px solid rgb(27, 255, 7);
 }
 
+/* Navigation bar dropdown toggle */
+nav {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    left: 0;
+    padding-left: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
 /* Main */
 main {
     background-color: pink;
