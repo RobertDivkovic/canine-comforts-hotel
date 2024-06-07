@@ -26,8 +26,9 @@ header {
     width: 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 
 }
 
@@ -43,6 +44,7 @@ h1 {
     text-transform: none;
     letter-spacing: 1px;
     color: rgb(41,40, 40);
+
 
 }
 
