@@ -23,6 +23,13 @@ header {
     background-color: brown;
 }
 
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
 /* Main */
 main {
     background-color: purple;
