@@ -44,8 +44,8 @@ h1 {
     text-transform: none;
     letter-spacing: 1px;
     color: rgb(41,40, 40);
-
-
+    flex-grow: 1;
+    text-align: center;
 }
 
 #menu {
