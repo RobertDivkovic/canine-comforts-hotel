@@ -25,6 +25,10 @@ header {
     position: fixed;
     width: 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+
 }
 
 header a {
@@ -64,9 +68,20 @@ nav {
     background-color: rgb(255, 255, 255);
     width: 100%;
     left: 0;
-    padding-left: 20px;
+    padding: 0 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     display: none;
+    top: 90%;
+}
+
+/* Hide the checkbox */
+#navigation-toggle {
+    display: none;
+}
+
+/* navigation toggle */
+#navigation-toggle:checked~nav {
+    display: block;
 }
 
 /* Main */
