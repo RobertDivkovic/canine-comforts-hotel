@@ -26,7 +26,7 @@ header {
     width: 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: baseline;
 
 }
@@ -71,7 +71,7 @@ nav {
     padding: 0 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     display: none;
-    top: 90%;
+    top: 100%;
 }
 
 /* Hide the checkbox */
@@ -89,6 +89,8 @@ main {
     background-color: pink;
     /* Force main element to take any excess space to push down footer */
     flex: 1 0 auto;
+    padding: 1rem;
+    margin-top: 4rem;
 }
 
 /* Footer */
