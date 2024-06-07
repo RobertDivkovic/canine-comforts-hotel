@@ -20,7 +20,11 @@ body {
 
 /* Header */
 header {
-    background-color: brown;
+    background-color: rgb(255, 255, 255);
+    padding: 0 1rem;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
@@ -32,7 +36,7 @@ h1 {
 
 /* Main */
 main {
-    background-color: purple;
+    background-color: pink;
     /* Force main element to take any excess space to push down footer */
     flex: 1 0 auto;
 }
