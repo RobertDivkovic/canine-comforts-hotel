@@ -157,6 +157,38 @@ main {
     color: rgb rgb(255, 255, 255);
 }
 
+/* Reasons section */
+
+#reason {
+    margin: 25px auto;
+    width: 95%;
+}
+
+#reason h2 {
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 250%;
+}
+
+#best-choice {
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+#best-choice p {
+    padding: 0 25px;
+}
+
+#best-choice hr {
+    border-top: 2px solid rgb(41,40, 40);
+    margin: 5px 0;
+}
+
+#expert-care, #socialization, #safe-place {
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
 /* Footer */
 #social-net {
    text-align: center;
