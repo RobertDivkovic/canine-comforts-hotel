@@ -189,6 +189,28 @@ main {
     margin-bottom: 25px;
 }
 
+#circle-cover1 {
+    background: url('../images/dogs-chilling.jpg') no-repeat top center/cover;
+    height: 80vw;
+    width: 80vw;
+    margin-bottom: 25px;
+    /* Make image circle */
+    border-radius: 50%;
+    max-width: 350px;
+    max-height: 350px;
+}
+
+#circle-cover2 {
+    background: url('../images/two-dogs.jpg') no-repeat top center/cover;
+    height: 80vw;
+    width: 80vw;
+    margin-bottom: 25px;
+    /* Make image circle */
+    border-radius: 50%;
+    max-width: 350px;
+    max-height: 350px;
+}
+
 
 /* Footer */
 #social-net {
