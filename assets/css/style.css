@@ -148,6 +148,7 @@ main {
     /* Setting opacity for transparency */
     background-color: rgba(11, 240, 183, 0.6);
     color: black;
+    border-radius: 10px;
     font-size: 120%;
     bottom: 20px;
     width: 75%;
@@ -313,6 +314,23 @@ main {
     padding: 25%;
     color: rgb(41, 40, 40);
 
+}
+
+/* Introduction section */
+#introduction {
+    padding: 55px 25px;
+    text-align: center;
+}
+
+#introduction h2 {
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+#introduction p {
+    font-size: 1.2em;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 /* Media query: tablets and larger (768px and larger) */
