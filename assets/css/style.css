@@ -204,13 +204,21 @@ main {
 #best-choice h3 {
     font-size: 1.5em;
     font-weight: bold;
-    display: flex;
     text-align: center;
-    gap: 10px;
+    margin-top: 10px;
 }
 
 #best-choice i {
     font-size: 2em;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Add spacing between sections */
+
+#best-choice > div {
+    margin-bottom: 40px;
 }
 
 .fa-shield-dog, .fa-dog, .fa-house-circle-check {
@@ -219,17 +227,16 @@ main {
 
 #best-choice p {
     padding: 0 25px;
-    font-size: 1.1rem;
+    font-size: 1.1em;
 }
 
 #best-choice hr {
     border-top: 2px solid rgb(41,40, 40);
-    margin: 10px 0;
+    margin: 10px 20px;
 }
 
 #expert-care, #socialization, #safe-place {
-    line-height: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
 
 /* Images container below text */
@@ -266,10 +273,6 @@ main {
     border-radius: 50%;
     max-width: 350px;
     max-height: 350px;
-}
-
-#best-choice {
-    text-align: center;
 }
 
 /* Footer */
@@ -386,6 +389,7 @@ main {
     #circle-cover1 , #circle-cover2 {
         width: 80vw;
         height: 80vw;
+        margin: 50px 75px;
         max-width: 450px;
         max-height: 450px;
     }
