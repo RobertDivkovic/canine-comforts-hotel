@@ -129,7 +129,7 @@ main {
     /* Force main element to take any excess space to push down footer */
     flex: 1 0 auto;
     padding: 1rem;
-    margin-top: 4rem;
+    margin-top: 0;
 }
 
 /* Top Dog section*/
