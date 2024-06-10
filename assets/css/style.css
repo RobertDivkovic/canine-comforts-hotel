@@ -146,7 +146,8 @@ main {
 
 #cover-text {
     /* Setting opacity for transparency */
-    background-color: rgba(11, 240, 183, .6);
+    background-color: rgba(11, 240, 183, 0.6);
+    color: black;
     font-size: 120%;
     bottom: 20px;
     width: 75%;
@@ -159,6 +160,25 @@ main {
 
 #cover-text > h2, #cover-text > h3 {
     color: rgb rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+/* Call to action button */
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:  rgb(19, 197, 153);
+    color: #4d3914;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 6px;
+    transition: background-color 0.3;
+}
+
+.cta-button:hover {
+    background-color: rgb(22, 177, 43);
 }
 
 /* Reasons section */
