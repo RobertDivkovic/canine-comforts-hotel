@@ -16,6 +16,8 @@ body {
     flex-direction: column;
     color: rgb(41, 40, 40);
     font-family: "Roboto", sans-serif;
+    /* Add padding to the top to prevent content from being hidden behind fixed header*/
+    padding-top: 60px;
 }
 
 h1 {
@@ -45,7 +47,9 @@ header {
     background-color: rgb(255, 255, 255);
     padding: 0 1rem;
     position: fixed;
+    top: 0;
     width: 100%;
+    z-index: 1000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: space-between;
@@ -196,8 +200,8 @@ main {
     display: flex;
     justify-content: center;
     /* Space between images */
-    gap: 100px;
-    margin-top: 25px;
+    gap: 20px;
+    margin-top: 20px;
 }
 
 #circle-cover1 {
