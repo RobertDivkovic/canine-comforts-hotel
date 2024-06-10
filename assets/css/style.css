@@ -164,7 +164,6 @@ main {
 }
 
 /* Call to action button */
-
 .cta-button {
     display: inline-block;
     margin-top: 20px;
@@ -182,7 +181,6 @@ main {
 }
 
 /* Reasons section */
-
 #reason {
     margin: 25px auto;
     width: 90%;
@@ -216,7 +214,6 @@ main {
 }
 
 /* Add spacing between sections */
-
 #best-choice > div {
     margin-bottom: 40px;
 }
@@ -240,7 +237,6 @@ main {
 }
 
 /* Images container below text */
-
 #image-container {
     display: flex;
     justify-content: center;
@@ -273,6 +269,34 @@ main {
     border-radius: 50%;
     max-width: 350px;
     max-height: 350px;
+}
+
+/* Testimonial section */
+#testimonials {
+    padding: 50px 25px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+.testimonial {
+    margin: 20px 0;
+}
+
+.testimonial p {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.testimonial h4 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: gray;
 }
 
 /* Footer */
