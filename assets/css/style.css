@@ -17,7 +17,7 @@ body {
     color: rgb(41, 40, 40);
     font-family: "Roboto", sans-serif;
     /* Add padding to the top to prevent content from being hidden behind fixed header*/
-    padding-top: 60px;
+    padding-top: 20px;
 }
 
 h1 {
