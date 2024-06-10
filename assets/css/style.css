@@ -128,7 +128,7 @@ header a {
 main {
     /* Force main element to take any excess space to push down footer */
     flex: 1 0 auto;
-    padding: 1rem;
+    padding: 0;
     margin-top: 0;
 }
 
@@ -185,13 +185,14 @@ main {
 
 #reason {
     margin: 25px auto;
-    width: 95%;
+    width: 90%;
 }
 
 #reason h2 {
     margin-bottom: 25px;
     text-align: center;
-    font-size: 250%;
+    font-size: 3em;
+    font-weight: bold;
 }
 
 #best-choice {
@@ -200,13 +201,30 @@ main {
     text-align: center;
 }
 
+#best-choice h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+
+#best-choice i {
+    font-size: 2em;
+}
+
+.fa-shield-dog, .fa-dog, .fa-house-circle-check {
+    color: rgb(41,40, 40);
+}
+
 #best-choice p {
     padding: 0 25px;
+    font-size: 1.1rem;
 }
 
 #best-choice hr {
     border-top: 2px solid rgb(41,40, 40);
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 #expert-care, #socialization, #safe-place {
