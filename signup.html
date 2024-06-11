@@ -36,7 +36,50 @@
         </nav>
     </header>
     <!-- Main -->
-    <main>main</main>
+    <main>
+        <section id="signup">
+            <h2>Sign Up</h2>
+            <form id="signup-form" method="post" action="https://formdump.codeinstitute.net">
+                <label for="owner-name">Full name of Owner:</label>
+                <input type="text" id="owner-name" name="owner-name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="dog-breed">Type of Dog Breed:</label>
+                <select name="dog-breed" id="dog-breed" required>
+                    <option value="Labrador Retriever">Labrador Retriever</option>
+                    <option value="German Shepherd">German Shepherd</option>
+                    <option value="Golden Retriever">Golden Retriever</option>
+                    <option value="Bulldog">Bulldog</option>
+                    <option value="Poodle">Poodle</option>
+                    <option value="Beagle">Beagle</option>
+                    <option value="Rottweiler">Rottweiler</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label for="dog-age">Age of dog:</label>
+                <input type="number" id="dog-age" name="dog-age" required>
+
+                <label for="pedigree">Does your dog have a Pedigree certificate?</label>
+                <div>
+                    <input type="radio" id="padigree-yes" name="pedigree" value="yes" required>
+                    <label for="pedigree-yes">Yes</label>
+                </div>
+                <div>
+                    <input type="radio" id="padigree-no" name="pedigree" value="no" required>
+                    <label for="pedigree-no">No</label>
+                </div>
+                <label for="additional-info">Additional Information:</label>
+                <textarea name="additional-info" id="additional-info" rows="4" cols="40"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
     <!-- Footer -->
     <footer>
         <ul id="social-net">

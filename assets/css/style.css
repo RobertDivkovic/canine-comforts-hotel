@@ -371,6 +371,71 @@ main section {
     margin-bottom: 10px;
 }
 
+/* Signup page */
+
+#signup {
+    background: url('/assets/images/dogs-chilling2.jpg');
+    padding: 55px 25;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+#signup h2 {
+    font: 2em;
+    margin-bottom: 30px;
+}
+
+#signup-form {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+}
+
+#signup label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+#signup input,
+#signup select,
+#signup textarea,
+#signupbutton {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+#signup input,
+#signup select,
+#signup textarea {
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+#signup button {
+    background-color: rgba(11, 240, 183, 0.8);
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#signup button:hover {
+    background-color: rgb(27, 255, 7);
+}
+
+#signup div {
+    margin-bottom: 15px;
+}
+
 /* Footer */
 #social-net {
     text-align: center;
