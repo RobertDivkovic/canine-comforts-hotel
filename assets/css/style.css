@@ -321,6 +321,10 @@ main {
 
 /* Accommodation type section */
 
+main section {
+    font-weight: 700;
+}
+
 #accommodation-type {
     padding: 55px 25px;
 }
@@ -343,6 +347,10 @@ main {
     margin-right: 25px;
 }
 
+#accommodation-info {
+    max-width: 100%;
+}
+
 .accommodation-info h3 {
     font-size: 1.5em;
     margin-bottom: 15px;
@@ -351,6 +359,12 @@ main {
 
 .accommodation-info p {
     font-size: 1.2em;
+    text-align: center;
+    margin: 0 auto;
+    /* Ensure p element does not exceed width of container */
+    max-width: 100%;
+    /* Add padding for better readibility */
+    padding: 0 15px;
 }
 
 #accommodation-type hr {
@@ -436,6 +450,10 @@ main {
     .accommodation img {
         max-width: 400px;
     }
+
+    .accommodation p {
+        max-width: 400px;
+    }
 }
 
 /* Media query: laptops and larger (992px and larger) */
@@ -464,6 +482,10 @@ main {
 
     /* Accommodation */
     .accommodation img {
+        max-width: 600px;
+    }
+
+    .accommodation p {
         max-width: 600px;
     }
 }
@@ -496,4 +518,7 @@ main {
         max-width: 800px;
     }
 
+    .accommodation p {
+        max-width: 800px;
+    }
 }
