@@ -16,8 +16,6 @@ body {
     flex-direction: column;
     color: rgb(41, 40, 40);
     font-family: "Roboto", sans-serif;
-    /* Add padding to the top to prevent content from being hidden behind fixed header*/
-    padding-top: 20px;
 }
 
 h1 {
@@ -129,7 +127,7 @@ main {
     /* Force main element to take any excess space to push down footer */
     flex: 1 0 auto;
     padding: 0;
-    margin-top: 0;
+    margin-top: 60px;
 }
 
 /* Top Dog section*/
@@ -305,6 +303,9 @@ main {
 #introduction {
     padding: 55px 25px;
     text-align: center;
+    /* Add gradient background */
+    background: linear-gradient(45deg, #6a11cb, #265ab4);
+    color: white;
 }
 
 #introduction h2 {
@@ -350,6 +351,10 @@ main {
 
 .accommodation-info p {
     font-size: 1.2em;
+}
+
+#accommodation-type hr {
+    margin-bottom: 10px;
 }
 
 /* Footer */
