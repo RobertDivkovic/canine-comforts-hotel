@@ -331,26 +331,21 @@ main {
 }
 
 .accommodation {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 25px;
+   margin-bottom: 40px;
+   text-align: center;
 }
 
 .accommodation img {
     width: 100%;
-    max-width: 400px;
     height: auto;
     border-radius: 10px;
     margin-right: 25px;
 }
 
-.accommodation-info {
-    flex: 1;
-}
-
 .accommodation-info h3 {
     font-size: 1.5em;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .accommodation-info p {
@@ -425,6 +420,17 @@ main {
         max-width: 250px;
         max-height: 250px;
     }
+
+    /* Accommodation */
+    .accommodation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .accommodation img {
+        max-width: 400px;
+    }
 }
 
 /* Media query: laptops and larger (992px and larger) */
@@ -450,6 +456,11 @@ main {
         max-width: 350px;
         max-height: 350px;
     }
+
+    /* Accommodation */
+    .accommodation img {
+        max-width: 600px;
+    }
 }
 
 /* Media query: desktops and larger (1200px and larger) */
@@ -474,4 +485,10 @@ main {
         max-width: 450px;
         max-height: 450px;
     }
+
+    /* Accommodation */
+    .accommodation img {
+        max-width: 800px;
+    }
+
 }
