@@ -441,6 +441,8 @@ main section {
     margin-bottom: 15px;
 }
 
+/* Fix radio button size */
+
 .radio-group {
     display: flex;
     align-items: center;
@@ -461,7 +463,8 @@ main section {
 }
 
 .radio-width {
-    margin: 0 90% 0 10%;
+    margin-top: 5%;
+    margin-right: 99%;
 }
 
 /* Footer */
