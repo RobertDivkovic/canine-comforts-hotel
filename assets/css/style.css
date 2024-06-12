@@ -441,25 +441,33 @@ main section {
     margin-bottom: 15px;
 }
 
+#signup hr {
+    margin-bottom: 5px;
+}
+
 /* Fix radio button size */
 
-.radio-group {
+.radio-group, .checkbox-group {
     display: flex;
     align-items: center;
 }
 
-.radio-group label {
+.radio-group label, .checkbox-group label {
     margin-right: 10px;
-    margin-left: auto;
+    display: flex;
 }
 
-.radio-group input[type="radio"] {
+.radio-group input[type="radio"], .checkbox-group input[type="checkbox"] {
     margin-left: 5px;
     /* Adjust the scale value to reduce button size */
     transform: scale(1.1);
     width: 15px;
     height: 15px;
     min-width: 15px;
+}
+
+.checkbox-group label > p {
+    text-align: center;
 }
 
 .radio-width {
