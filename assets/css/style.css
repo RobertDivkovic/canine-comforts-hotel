@@ -311,6 +311,7 @@ main {
 
 #introduction h2 {
     font-size: 2em;
+    color: #a9bde0;
     margin-bottom: 25px;
 }
 
@@ -522,6 +523,7 @@ main section {
 
     .accommodation p {
         max-width: 400px;
+        margin-right: 20px;
     }
 }
 
