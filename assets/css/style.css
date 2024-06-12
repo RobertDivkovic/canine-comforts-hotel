@@ -52,7 +52,6 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
-
 }
 
 header a {
@@ -126,7 +125,7 @@ main {
     /* Force main element to take any excess space to push down footer */
     flex: 1 0 auto;
     padding: 0;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 /* Top Dog section*/
@@ -382,7 +381,7 @@ main section {
     align-items: center;
     color: white;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
-    min-height: calc(100vh - 60px);
+    min-height: calc(100vh - 30px);
 }
 
 #signup h2 {
@@ -477,7 +476,7 @@ main section {
 
     #logo {
         font-size: 250%;
-        line-height: 80px;
+        line-height: 40px;
         padding-left: 17.5%;
         margin: 0;
     }
