@@ -373,21 +373,24 @@ main section {
 /* Signup page */
 
 #signup {
-    background: url('../images/dogs-chilling2.jpg');
-    padding: 55px 25;
+    background: url('../images/dogs-chilling2.jpg') no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    padding: 55px 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    min-height: calc(100vh - 60px);
 }
 
 #signup h2 {
-    font: 2em;
+    font-size: 2em;
     margin-bottom: 30px;
 }
 
-#signup-form {
+#signup form {
     background: rgba(0, 0, 0, 0.6);
     padding: 20px;
     border-radius: 10px;
@@ -404,7 +407,7 @@ main section {
 #signup input,
 #signup select,
 #signup textarea,
-#signupbutton {
+#signup button {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -416,7 +419,7 @@ main section {
 #signup select,
 #signup textarea {
     background: rgba(255, 255, 255, 0.8);
-    color: #333;
+    color: #272727;
 }
 
 #signup button {
