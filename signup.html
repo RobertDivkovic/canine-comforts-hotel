@@ -65,13 +65,17 @@
                 <input type="number" id="dog-age" name="dog-age" required>
 
                 <label for="pedigree">Does your dog have a Pedigree certificate?</label>
-                <div>
-                    <input type="radio" id="pedigree-yes" name="pedigree" value="yes" required>
+                <div class="radio-group">
                     <label for="pedigree-yes">Yes</label>
+                    <div class="radio-width">
+                    <input type="radio" id="pedigree-yes" name="pedigree" value="yes" required>
+                    </div>
                 </div>
-                <div>
-                    <input type="radio" id="pedigree-no" name="pedigree" value="no" required>
+                <div class="radio-group">
                     <label for="pedigree-no">No</label>
+                    <div class="radio-width">
+                    <input type="radio" id="pedigree-no" name="pedigree" value="no" required>
+                    </div>
                 </div>
                 <label for="additional-info">Additional Information:</label>
                 <textarea name="additional-info" id="additional-info" rows="4" cols="40"></textarea>
