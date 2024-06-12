@@ -162,13 +162,16 @@ main {
 
 /* Call to action button */
 .cta-button {
+    width: 150px;
+    height: 75px;
     display: inline-block;
     margin-top: 20px;
-    padding: 10px 20px;
-    background-color:  rgb(19, 197, 153);
-    color: #4d3914;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    background-color:  rgb(20, 125, 46);
+    color: #31240d;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border-radius: 6px;
     transition: background-color 0.3;
 }
@@ -320,7 +323,7 @@ main {
 /* Accommodation type section */
 
 main section {
-    font-weight: 700;
+    font-weight: 400;
 }
 
 #accommodation-type {
