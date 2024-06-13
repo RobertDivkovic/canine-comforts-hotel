@@ -23,18 +23,19 @@ h1 {
     font-style: normal;
     text-transform: none;
     letter-spacing: 1px;
-    color: rgb(41,40, 40);
+    color: rgb(41, 40, 40);
     flex-grow: 1;
     text-align: center;
 }
 
-h2,h3 {
+h2,
+h3 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
     text-transform: none;
     letter-spacing: 1px;
-    color: rgb(41,40, 40);
+    color: rgb(41, 40, 40);
     flex-grow: 1;
     text-align: center;
 }
@@ -66,7 +67,7 @@ header a {
 
 }
 
-#menu > li {
+#menu>li {
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -155,7 +156,8 @@ main {
     margin-bottom: 20px;
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text>h2,
+#cover-text>h3 {
     color: rgb rgb(255, 255, 255);
     margin-bottom: 10px;
 }
@@ -168,7 +170,7 @@ main {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px 20px;
-    background-color:  rgb(20, 125, 46);
+    background-color: rgb(20, 125, 46);
     color: #31240d;
     text-decoration: none;
     font-size: 1.5rem;
@@ -214,12 +216,14 @@ main {
 }
 
 /* Add spacing between sections */
-#best-choice > div {
+#best-choice>div {
     margin-bottom: 40px;
 }
 
-.fa-shield-dog, .fa-dog, .fa-house-circle-check {
-    color: rgb(41,40, 40);
+.fa-shield-dog,
+.fa-dog,
+.fa-house-circle-check {
+    color: rgb(41, 40, 40);
 }
 
 #best-choice p {
@@ -228,11 +232,13 @@ main {
 }
 
 #best-choice hr {
-    border-top: 2px solid rgb(41,40, 40);
+    border-top: 2px solid rgb(41, 40, 40);
     margin: 10px 20px;
 }
 
-#expert-care, #socialization, #safe-place {
+#expert-care,
+#socialization,
+#safe-place {
     margin-bottom: 40px;
 }
 
@@ -338,8 +344,8 @@ main section {
 }
 
 .accommodation {
-   margin-bottom: 40px;
-   text-align: center;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 .accommodation img {
@@ -447,17 +453,20 @@ main section {
 
 /* Fix radio button size */
 
-.radio-group, .checkbox-group {
+.radio-group,
+.checkbox-group {
     display: flex;
     align-items: center;
 }
 
-.radio-group label, .checkbox-group label {
+.radio-group label,
+.checkbox-group label {
     margin-right: 10px;
     display: flex;
 }
 
-.radio-group input[type="radio"], .checkbox-group input[type="checkbox"] {
+.radio-group input[type="radio"],
+.checkbox-group input[type="checkbox"] {
     margin-left: 5px;
     /* Adjust the scale value to reduce button size */
     transform: scale(1.1);
@@ -466,7 +475,7 @@ main section {
     min-width: 15px;
 }
 
-.checkbox-group label > p {
+.checkbox-group label>p {
     text-align: center;
 }
 
@@ -482,16 +491,17 @@ main section {
     padding: 15px 0;
     justify-content: space-evenly;
     list-style-type: none;
- }
- 
- #social-net i {
-     font-size: 150%;
-     padding: 25%;
-     color: rgb(41, 40, 40);
- }
+}
+
+#social-net i {
+    font-size: 150%;
+    padding: 25%;
+    color: rgb(41, 40, 40);
+}
 
 /* Media query: tablets and larger (768px and larger) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -505,9 +515,10 @@ main section {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-right: 1rem;
     }
+
     .navigation-toggle-label {
         display: none;
     }
@@ -518,7 +529,7 @@ main section {
         padding-left: 17.5%;
         margin: 0;
     }
-    
+
     #cover-text {
         width: 300px;
         right: 40px;
@@ -532,12 +543,13 @@ main section {
         align-items: center;
     }
 
-    #best-choice > div {
+    #best-choice>div {
         width: 100%;
         margin: 20px 0;
     }
 
-    #circle-cover1, #circle-cover2 {
+    #circle-cover1,
+    #circle-cover2 {
         width: 60vw;
         height: 60vw;
         max-width: 250px;
@@ -573,12 +585,13 @@ main section {
         align-items: center;
     }
 
-    #best-choice > div {
+    #best-choice>div {
         width: 80%;
         margin: 20px 0;
     }
 
-    #circle-cover1, #circle-cover2 {
+    #circle-cover1,
+    #circle-cover2 {
         width: 70vw;
         height: 70vw;
         max-width: 350px;
@@ -598,6 +611,7 @@ main section {
 /* Media query: desktops and larger (1200px and larger) */
 
 @media screen and (min-width: 1200px) {
+
     /* Reasons section */
     #best-choice {
         display: flex;
@@ -605,12 +619,13 @@ main section {
         align-items: center;
     }
 
-    #best-choice > div {
+    #best-choice>div {
         width: 80%;
         margin: 20px 0;
     }
 
-    #circle-cover1 , #circle-cover2 {
+    #circle-cover1,
+    #circle-cover2 {
         width: 80vw;
         height: 80vw;
         margin: 50px 75px;
