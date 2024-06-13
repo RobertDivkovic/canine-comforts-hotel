@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags for search engines -->
+    <meta name="description"
+        content="Canine Comforts Hotel. Hotel for dogs in Vienna, Austria. Relaxing enviroment for dogs. Spacious room and backyard for dogs. Five star dog hotel. Holiday heaven for dogs.">
+    <meta name="keywords"
+        content="canine comfort hotel, canine, dog, comfor, hotel, dog hotel, Austria, Vienna, relax, holiday">
+    <!-- Title -->
+    <title>Canine Comforts Hotel</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Canine Comforts Hotel</h1>
+        </a>
+        <input type="checkbox" name="navigation-toggle" id="navigation-toggle">
+        <label for="navigation-toggle" class="navigation-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="accommodation.html">Accommodation</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main>
+        <h2>Thank You for Signin Up!</h2>
+        <h3>Here is the information you subimtted</h3>
+        <table id="data-table" border="1">
+            <thead>
+                <tr>
+                    <th>Field</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be inserted here from JS -->
+            </tbody>
+        </table>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <ul id="social-net">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (it opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (it opens in new tab)">
+                    <iclass="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (it opens in new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (it opens in new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <!-- Font Awesome Kit -->
+<script src="https://kit.fontawesome.com/622f7a1580.js" crossorigin="anonymous"></script>
+<script>
+    function getParams() {
+        let params = {};
+        let queryString = window.location.search.slice(1);
+        let queryArray = queryString.split('&');
+
+        queryArray.forEach(function (pair) {
+            let keyValue = pair.split('=');
+            let key = decodeURIComponent(keyValue[0]);
+            let value = decodeURIComponent(keyValue[1] || '');
+            if (params[key]) {
+                if (!Array.isArray(params[key])) {
+                    params[key] = [params[key]];
+                }
+                params[key].push(value);
+            } else {
+                params[key] = value;
+            }
+        });
+        return params;
+    }
+
+    function displayData() {
+        let params = getParams();
+        let tbody = document.getElementById('data-table').getElementByName('tbody')[0];
+
+        for (let key in params) {
+            let row = tbody.insertRow();
+            let cell1 = row.insertCell(0);
+            let cell2 = row.insertCell (1);
+            cell1.textContent = key.replace(/-/g, '');
+            cell2.textContent = Array.isArray(params[key]) ? params[key].join(', ') : params[key];
+        }
+    }
+
+    window.onload = displayData;
+</script>
+</body>
+
+</html>
