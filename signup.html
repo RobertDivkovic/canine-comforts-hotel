@@ -40,7 +40,7 @@
         <!-- Signup section -->
         <section id="signup">
             <h2>Sign Up</h2>
-            <form id="signup-form" method="post" action="">
+            <form id="signup-form" method="post" action="thank-you.html">
                 <label for="owner-name">Full name of Owner:</label>
                 <input type="text" id="owner-name" name="owner-name" required>
 
@@ -155,6 +155,27 @@
     </footer>
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/622f7a1580.js" crossorigin="anonymous"></script>
+    <script>
+        function submitForm() {
+            const form = document.getElementById('signup-form');
+            const formData = new FormData(form);
+
+            const data = {};
+            formData.forEach((value, key) => {
+                if (!data[key]) {
+                    data[key] = value;
+                } else {
+                    if (!Array.isArray(data[key])) {
+                        data[key] = [data[key]];
+                    }
+                    data[key].push(value);
+                }
+            });
+
+            sessionStorage.setItem('formData', JSON.stringify(data));
+            window.location.href = 'thank-you.html';
+        }
+    </script>
 </body>
 
 </html>

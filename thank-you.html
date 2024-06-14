@@ -76,44 +76,23 @@
         </ul>
     </footer>
     <!-- Font Awesome Kit -->
-<script src="https://kit.fontawesome.com/622f7a1580.js" crossorigin="anonymous"></script>
-<script>
-    function getParams() {
-        let params = {};
-        let queryString = window.location.search.slice(1);
-        let queryArray = queryString.split('&');
+    <script src="https://kit.fontawesome.com/622f7a1580.js" crossorigin="anonymous"></script>
+    <script>
+        function displayData() {
+            const data = JSON.parse(sessionStorage.getItem('formData'));
+            const tbody = document.getElementById('data-table').getElementsByTagName('tbody')[0];
 
-        queryArray.forEach(function (pair) {
-            let keyValue = pair.split('=');
-            let key = decodeURIComponent(keyValue[0]);
-            let value = decodeURIComponent(keyValue[1] || '');
-            if (params[key]) {
-                if (!Array.isArray(params[key])) {
-                    params[key] = [params[key]];
-                }
-                params[key].push(value);
-            } else {
-                params[key] = value;
+            for (let key in data) {
+                let row = tbody.insertRow();
+                let cell1 = row.insertCell(0);
+                let cell2 = row.insertCell(1);
+                cell1.textContent = key.replace(/-/g, ' ');
+                cell2.textContent = Array.isArray(data[key]) ? data[key].join(', ') : data[key];
             }
-        });
-        return params;
-    }
-
-    function displayData() {
-        let params = getParams();
-        let tbody = document.getElementById('data-table').getElementByName('tbody')[0];
-
-        for (let key in params) {
-            let row = tbody.insertRow();
-            let cell1 = row.insertCell(0);
-            let cell2 = row.insertCell (1);
-            cell1.textContent = key.replace(/-/g, '');
-            cell2.textContent = Array.isArray(params[key]) ? params[key].join(', ') : params[key];
         }
-    }
 
-    window.onload = displayData;
-</script>
+        window.onload = displayData;
+    </script>
 </body>
 
 </html>
