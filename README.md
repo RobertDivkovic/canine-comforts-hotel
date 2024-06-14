@@ -374,3 +374,66 @@ During development, the webpage was mainly tested on Google Chrome. However, dur
 - Microsoft Edge
 - Safari
 - Opera
+
+### Validator
+
+- [HTML Validator](https://validator.w3.org/)
+
+- 1 Error
+- 0 warnings
+
+- ![HTML Validator - Error](/docs/testing/unresolvederrorhtml.png)
+
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+- 0 Errors
+- 0 warnings
+
+- ![CSS Validator -NoError](/docs/testing/cssnoerrors.png)
+
+## Deployment
+
+The main branch of this repository contains the latest version of the project and has been used for the deployed version of the site. The project was created using a standard HTML/CSS template suitable for GitHub Pages.
+
+### Steps for Deployment
+
+1. **Using the Template:**
+   - Click the "Use this template" button on the repository page.
+   - Provide a name and description for your new repository.
+
+2. **Cloning the Repository:**
+   - Open your preferred IDE or code editor and log into your account.
+   - Click the "New Workspace" button (or equivalent for your IDE).
+   - Create a workspace by cloning your project repository:
+     - From your repository page, click the "Code" button.
+     - In the "Clone" section, copy the HTTPS URL for the repository.
+     - Paste the URL into the designated area in your IDE to create a clone.
+
+3. **Deploying on GitHub Pages:**
+   - Navigate to your repository settings on GitHub.
+   - Scroll down to the "GitHub Pages" section.
+   - Under "Source", select the branch you want to deploy (e.g., `main`).
+   - Click "Save".
+   - Your site will be deployed at `https://<your-username>.github.io/<your-repository>/`.
+
+### Forking the Repository
+
+If you want to make your own copy of the repository:
+
+1. **Forking:**
+   - Navigate to the original repository you want to fork.
+   - Click the "Fork" button in the upper right corner of the repository page.
+   - Provide a name for your forked repository.
+   - Click "Create fork".
+
+2. **Making Changes:**
+   - Clone the forked repository to your local machine.
+   - Make your desired changes in your local development environment.
+   - Push the changes back to your forked repository on GitHub.
+
+3. **Pull Requests:**
+   - If you want to contribute back to the original repository, create a pull request.
+   - Navigate to the original repository and click "New Pull Request".
+   - Provide a description of the changes you made and submit the pull request for review.
+
+By following these steps, you can deploy and manage your own version of the project efficiently. If you encounter any issues during deployment, refer to the GitHub documentation or seek help from the community.
