@@ -437,3 +437,24 @@ If you want to make your own copy of the repository:
    - Provide a description of the changes you made and submit the pull request for review.
 
 By following these steps, you can deploy and manage your own version of the project efficiently. If you encounter any issues during deployment, refer to the GitHub documentation or seek help from the community.
+
+### Credits
+
+## Images :
+
+-Pexels
+
+[Top Dog image](https://www.pexels.com/photo/husky-lying-down-on-grass-20139245/)
+[First circular img indexpage](https://www.pexels.com/photo/photo-of-two-brown-dogs-2803295/)
+[Second circular img indexpage](https://www.pexels.com/photo/two-dogs-on-the-field-10353736/)
+[Signup background](https://www.pexels.com/photo/photo-of-a-brown-labrador-retriever-beside-a-brown-and-black-dog-10320814/)
+
+Code :
+
+- [Code Institute, Love running project](https://github.com/RobertDivkovic/love-running)
+
+- [Flaticon](https://www.flaticon.com/free-icon/pet-hotel_1131938?term=pet+hotel&page=1&position=4&origin=tag&related_id=1131938)
+- [Flaticon](https://www.flaticon.com/authors/justicon)
+
+
+### I appreciate everyone who took time and read this
