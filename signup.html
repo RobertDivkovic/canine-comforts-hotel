@@ -40,7 +40,7 @@
         <!-- Signup section -->
         <section id="signup">
             <h2>Sign Up</h2>
-            <form id="signup-form" method="post" action="thank-you.html">
+            <form id="signup-form" onsubmit="submitForm(event)">
                 <label for="owner-name">Full name of Owner:</label>
                 <input type="text" id="owner-name" name="owner-name" required>
 
@@ -138,9 +138,8 @@
                     aria-label="Visit our Facebook page (it opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (it opens in new tab)">
-                    <iclass="fa-brands fa-instagram"></i>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener" 
+                aria-label="Visit our Instagram page (it opens in new tab)"><i class="fa-brands fa-instagram"></i>
                 </a>
             </li>
             <li>
@@ -156,7 +155,9 @@
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/622f7a1580.js" crossorigin="anonymous"></script>
     <script>
-        function submitForm() {
+        function submitForm(event) {
+            event.preventDefault(); // Prevent the form from submitting the traditional way
+
             const form = document.getElementById('signup-form');
             const formData = new FormData(form);
 
