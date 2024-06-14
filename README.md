@@ -12,8 +12,6 @@ Welcome to the Canine Comforts Hotel! Our hotel provides a luxurious and safe en
 - [Project Files](#project-files)
 - [How to Run the Project](#how-to-run-the-project)
 
-
-
 ## The Strategy Plane
 
 ### Creator Goals
@@ -73,3 +71,51 @@ The following table outlines the feasibility and importance of each feature, whi
 | Live Chat Support        | 3           | 3          |
 
 These decisions were based on balancing the feasibility of implementation within the given timeframe and the importance of each feature in enhancing user experience and meeting business objectives.
+
+## The Scope Plane
+
+### Colors
+- **#292828:**
+  - Main text color
+  - Icons
+  - Headers and subheaders
+
+- **#FFFFFF:**
+  - Header background
+  - Navigation bar
+  - Background color for various sections
+  - Footer background
+  - Text on darker backgrounds
+
+- **#7D481A:**
+  - Table background
+  - Borders for table cells
+  - Background color for some sections
+
+- **#544F4F:**
+  - Table header background
+
+- **#87603C:**
+  - Background gradient start
+  - Footer background
+
+- **#C59C3D:**
+  - Background gradient end
+
+- **#EBF0F0:**
+  - Input fields background
+  - Form backgrounds
+
+### Fonts
+Both fonts used in this project are Google Fonts.
+
+- **Roboto:**
+  - I used Roboto as the main font, as it's one of the most popular and user-friendly fonts. The Roboto font is easy to read even on the smallest devices and provides a positive user experience.
+
+### Images
+All images used in this project have been downloaded from:
+
+- Local assets directory (assets/images)
+- External sources credited in the appropriate sections
+
+More information in the credits section.
