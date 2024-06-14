@@ -115,7 +115,8 @@ Both fonts used in this project are Google Fonts.
 ### Images
 All images used in this project have been downloaded from:
 
-- Local assets directory (assets/images)
+- Pexels
 - External sources credited in the appropriate sections
 
 More information in the credits section.
+
