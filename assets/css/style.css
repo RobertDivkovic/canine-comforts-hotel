@@ -311,13 +311,13 @@ main {
     padding: 55px 25px;
     text-align: center;
     /* Add gradient background */
-    background: linear-gradient(45deg, #6a11cb, #265ab4);
+    background: linear-gradient(45deg, #87603c, #c59c3d);
     color: white;
 }
 
 #introduction h2 {
     font-size: 2em;
-    color: #a9bde0;
+    color: #461e0e;
     margin-bottom: 25px;
 }
 
@@ -488,6 +488,8 @@ main section {
 /* Styling table and centering it */
 
 #thank-you {
+    background: linear-gradient(45deg, #87603c, #c59c3d);
+    color: white;;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -519,7 +521,7 @@ table {
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
-    background-color: #d9c9c9;
+    background-color: #7d481a;
     border: 1px solid #494343;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -533,10 +535,11 @@ th, td {
 th {
     background-color: #544f4f;
     font-weight: bold;
+    text-align: center;
 }
 
 tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #7b5316;
 }
 
 /* Footer */
