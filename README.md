@@ -206,3 +206,89 @@ More information in the credits section.
   - Text alignment centered for headings and main sections
 
 This layout ensures a cohesive and visually appealing structure across all pages of the Canine Comforts Hotel website, providing a seamless user experience.
+
+## The Surface Plane
+
+### Features Present Across the Project
+
+#### Navigation Bar
+- **Description:**
+  - The navigation bar is present on every page, fully responsive across all resolutions.
+  - It toggles to a hamburger menu on mobile devices for better accessibility.
+  - Allows users to navigate across the site freely.
+- **Desktop View:**
+  - ![Desktop Navbar](/docs/testing/navbar2.png)
+- **Mobile View:**
+  - ![Mobile Navbar](/docs/testing/navbar1.png)
+
+#### Footer
+- **Description:**
+  - The footer is present on every page, providing an additional navigation option from the bottom.
+  - Contains social media links that open in a new tab.
+- **Footer View:**
+  - ![Footer](/docs/testing/footer.png)
+
+#### Hero Images
+- **Description:**
+  - Included to draw the user's attention and immediately convey the website's purpose.
+- **Desktop View:**
+  - ![Hero Image Desktop](/docs/testing/hero.png)
+- **Mobile View:**
+  - ![Hero Image Mobile](/docs/testing/heromobile.png)
+
+##### Introduction Section
+- **Description:**
+  - Shows the purpose of the business right away, allowing users to determine if the website is useful within the first few minutes.
+- **Introduction Section View:**
+  - ![Home Page - Introduction](/docs/testing/introduction.png)
+
+##### Reason Section
+- **Description:**
+  - Highlights key benefits such as Expert Care, Socialization, and Comfortable Accommodations.
+  - Includes icons and text descriptions to engage the user.
+- **Reason Section View:**
+  - ![Home Page - Reason Section](/docs/testing/reasons.png)
+
+##### Testimonials Section
+- **Description:**
+  - Displays testimonials from satisfied clients, providing social proof of the quality of services.
+- **Testimonials Section View:**
+  - ![Home Page - Testimonials](/docs/testing/testimonials.png)
+
+#### Accommodation Page
+
+##### Accommodation Types
+- **Description:**
+  - Provides detailed information and images of different accommodation options (Exclusive Suites, Anti-Stress Suites, Royal Suites).
+- **Accommodation Types View:**
+  - ![Accommodation Page - Types](/docs/testing/accommodation.png)
+
+##### Sign-Up Form
+- **Description:**
+  - Allows users to register their dogs and book accommodations.
+  - Includes input fields for owner and dog information, suite preferences, and additional options.
+- **Sign-Up Form View:**
+  - ![Sign-Up Page - Form](/docs/testing/signup.png)
+
+##### Confirmation Section
+- **Description:**
+  - Displays a thank you message and a summary of the submitted information.
+  - Uses JavaScript to retrieve and display the submitted data in a table format.
+- **Confirmation Section View:**
+  - ![Thank-You Page - Confirmation](/docs/testing/thankyou.png)
+
+### Visual and Interaction Design
+- **Color Scheme:**
+  - Main text color: `#292828`
+  - Background colors: `#FFFFFF` for the header and footer, `#87603C` to `#C59C3D` gradient for sections
+  - Accent colors: `#7D481A` and `#544F4F` for tables and highlights
+- **Typography:**
+  - Primary font: `Roboto`, used consistently across the site for a clean and modern look.
+  - Font weights and sizes are adjusted for headings, subheadings, and body text to create a clear visual hierarchy.
+- **Imagery:**
+  - High-quality images are used in hero sections, accommodation descriptions, and decorative elements to enhance visual appeal.
+- **Responsiveness:**
+  - The design is fully responsive, with media queries to adjust layout and styles for tablets, laptops, and desktops.
+  - Flexible grid system ensures content is well-organized and accessible on all devices.
+
+This Surface Plane section ensures that the visual and interactive elements of the Canine Comforts Hotel website are cohesive, engaging, and accessible across various devices and screen sizes.
