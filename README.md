@@ -292,3 +292,73 @@ This layout ensures a cohesive and visually appealing structure across all pages
   - Flexible grid system ensures content is well-organized and accessible on all devices.
 
 This Surface Plane section ensures that the visual and interactive elements of the Canine Comforts Hotel website are cohesive, engaging, and accessible across various devices and screen sizes.
+
+## Testing
+
+### User Stories
+User stories were tested to ensure all functionalities meet the user's needs and expectations.
+
+### Manual Testing
+
+#### Navigation Bar
+- Navigation bar is fully responsive on large, medium, and small resolutions.
+- Navigation bar toggles to a hamburger menu on mobile devices and stays fully responsive.
+- All links to pages (Home, Accommodation, Sign-Up) are working properly.
+- Hover CSS is correctly working (available on desktop only).
+
+#### Footer
+- Footer is fully responsive on large, medium, and small resolutions.
+- Social media links (Facebook, Instagram, Twitter, YouTube) are working and open in a new tab.
+- Links to pages are working properly.
+- Hover CSS is correctly working (available on desktop only).
+
+#### Contact Form Links
+- Links located in the introduction section on the main page and in the accommodation section are both working properly.
+
+#### Background Images
+- Background photos for the home and sign-up pages are linked correctly.
+- Images are successfully scaling on mobile devices.
+
+#### Sign-Up Form
+- The form is working as intended.
+- The form successfully redirects the user to the "Thank You" page.
+- Submit button is working correctly.
+- The form looks good on smaller devices.
+
+#### Thank You Page
+- The page successfully appears to the user after filling out the form.
+- The home button taking the user back to the home page is working.
+
+### Devices Used During Testing
+- Desktop Computer
+- Samsung A53
+- Samsung A50
+- Lenovo (laptop)
+- Acer (laptop)
+
+### Chrome Dev Tools
+Chrome Dev Tools was used throughout the development of the project to test responsiveness. Responsiveness was tested using Dev Tools to emulate the following devices:
+- iPhone SE
+- iPhone XR
+- iPhone 12 Pro
+- iPhone 14 Pro Max
+- Pixel 7
+- Samsung Galaxy S8+
+- Samsung Galaxy S20 Ultra
+- iPad Mini
+- iPad Air
+- iPad Pro
+- Surface Pro 7
+- Surface Duo
+- Galaxy Fold
+- Samsung Galaxy A51/71
+- Nest Hub
+- Nest Hub Max
+
+### Browser Testing
+During development, the webpage was mainly tested on Google Chrome. However, during the testing process, the following browsers have been used:
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+- Safari
+- Opera
