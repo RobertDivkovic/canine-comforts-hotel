@@ -120,3 +120,89 @@ All images used in this project have been downloaded from:
 
 More information in the credits section.
 
+## The Skeleton Plane
+
+### Layout Design
+
+#### Header
+- **Elements:**
+  - Logo linking to the home page (`index.html`)
+  - Navigation bar with links to Home, Accommodation, and Sign-Up pages
+- **Styles:**
+  - Fixed at the top of the page
+  - Background color: `#FFFFFF`
+  - Box shadow for slight elevation
+  - Responsive design with a collapsible menu on smaller screens
+
+#### Main Content
+- **Home Page (`index.html`):**
+  - **Top Section:**
+    - Hero image with the hotel's name and location
+    - Call-to-action button linking to the sign-up page
+  - **Reason Section:**
+    - Three columns highlighting key benefits (Expert Care, Socialization, Comfortable Accommodations)
+    - Icons and text descriptions
+    - Circular images for visual appeal
+  - **Testimonials Section:**
+    - Client testimonials with quotes and client names
+
+- **Accommodation Page (`accommodation.html`):**
+  - **Introduction Section:**
+    - Heading and introductory text about the accommodations
+    - Gradient background for visual interest
+  - **Accommodation Types:**
+    - Descriptions and images of different suite options (Exclusive Suites, Anti-Stress Suites, Royal Suites)
+    - Separator lines between sections
+
+- **Sign-Up Page (`signup.html`):**
+  - **Form Section:**
+    - Registration form for owners to book accommodations
+    - Input fields for owner and dog information, suite preferences, and additional options
+    - Background image with an overlay for better readability
+
+- **Thank-You Page (`thank-you.html`):**
+  - **Confirmation Section:**
+    - Thank you message and summary of submitted information
+    - Data table for displaying user-submitted information
+    - Gradient background matching the accommodation page
+
+#### Footer
+- **Elements:**
+  - Social media links (Facebook, Instagram, Twitter, YouTube)
+  - Address and contact information
+- **Styles:**
+  - Background color: `#FFFFFF`
+  - Centered icons with consistent padding
+
+### Navigation Design
+- **Desktop:**
+  - Horizontal navigation bar
+  - Links to Home, Accommodation, Sign-Up pages
+  - Active page highlighted with a bottom border
+- **Mobile:**
+  - Collapsible menu with a toggle button
+  - Vertical menu dropdown
+
+### Forms and Interactions
+- **Sign-Up Form:**
+  - Fields for owner name, email, phone number, dog breed, dog age, pedigree certificate, suite preference, additional packages, and additional information
+  - Submission button that saves data to session storage and redirects to the thank-you page
+- **Thank-You Page:**
+  - JavaScript to retrieve and display submitted data from session storage in a table format
+
+### Media and Responsive Design
+- **Responsive Layout:**
+  - Use of media queries to adjust layout for tablets, laptops, and desktops
+  - Flexible grid system for images and text sections
+- **Images:**
+  - High-quality images for hero sections, accommodation descriptions, and circular decorative images
+
+### Typography
+- **Fonts:**
+  - Primary font: `Roboto` for all text
+  - Font weights and sizes adjusted for headings, subheadings, and body text
+- **Styles:**
+  - Consistent use of colors and font sizes for readability and visual hierarchy
+  - Text alignment centered for headings and main sections
+
+This layout ensures a cohesive and visually appealing structure across all pages of the Canine Comforts Hotel website, providing a seamless user experience.
