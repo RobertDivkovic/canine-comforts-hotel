@@ -46,7 +46,7 @@ During the planning phase of the Canine Comforts Hotel website, I prioritized th
 - **Accommodation Page:** Provides detailed information about the various accommodation options available for dogs.
 - **Sign-Up Page:** Enables users to register their dogs and book accommodations through a comprehensive form.
 - **Thank-You Page:** Confirms the user's submission and provides a summary of the information submitted.
-- **Footer:** Contains the hotel’s address, contact details, and links to social media platforms.
+- **Footer:** Contains links to social media platforms.
 
 ### Planned Future Features
 - **Booking Confirmation Email:** A feature to send users an email confirmation after booking accommodations or submitting a form.
@@ -169,7 +169,6 @@ More information in the credits section.
 #### Footer
 - **Elements:**
   - Social media links (Facebook, Instagram, Twitter, YouTube)
-  - Address and contact information
 - **Styles:**
   - Background color: `#FFFFFF`
   - Centered icons with consistent padding
@@ -294,6 +293,19 @@ This layout ensures a cohesive and visually appealing structure across all pages
 This Surface Plane section ensures that the visual and interactive elements of the Canine Comforts Hotel website are cohesive, engaging, and accessible across various devices and screen sizes.
 
 ## Testing
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [GitHub](https://github.com/)
+- [Git](https://git-scm.com/)
+- [jQuery](https://jquery.com/)
+- [Flaticon](https://www.flaticon.com/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Hover.css](https://ianlunn.github.io/Hover/)
+- [FontAwesome](https://fontawesome.com/)
+- [CodeAnywhere](https://codeanywhere.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [QuillBot](https://quillbot.com/)
+- [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
 
 ### User Stories
 User stories were tested to ensure all functionalities meet the user's needs and expectations.

@@ -52,6 +52,9 @@
 
                 <label for="dog-breed">Type of Dog Breed:</label>
                 <select name="dog-breed" id="dog-breed" required>
+                    
+                    <option value="" disabled selected>Select a breed</option>
+
                     <option value="Labrador Retriever">Labrador Retriever</option>
                     <option value="German Shepherd">German Shepherd</option>
                     <option value="Golden Retriever">Golden Retriever</option>
@@ -65,7 +68,7 @@
                 <label for="dog-age">Age of dog:</label>
                 <input type="number" id="dog-age" name="dog-age" required>
 
-                <label for="pedigree">Does your dog have a Pedigree certificate?</label>
+                <label>Does your dog have a Pedigree certificate?</label>
                 <div class="radio-group">
                     <label for="pedigree-yes">Yes</label>
                     <div class="radio-width">
@@ -79,18 +82,18 @@
                     </div>
                 </div>
                 <hr>
-                <label for="suite-preference-selection">Suite Selection:</label>
+                <label>Suite Selection:</label>
                 <div class="radio-group">
-                    <label for="suite-preference">
-                        <input type="radio" name="suite-preference" value="exclusive-suites" required>
+                    <label for="suite-exclusive">
+                        <input type="radio" id="suite-exclusive" name="suite-preference" value="exclusive-suites" required>
                     </label>
                     <p>Exclusive Suite</p>
-                    <label for="suite-preference">
-                        <input type="radio" name="suite-preference" value="anti-stress-suites" required>
+                    <label for="suite-anti-stress">
+                        <input type="radio" id="suite-anti-stress" name="suite-preference" value="anti-stress-suites" required>
                     </label>
                     <p>Anti Stress Suite</p>
-                    <label for="suite-preference">
-                        <input type="radio" name="suite-preference" value="royal-suites" required>
+                    <label for="suite-royal">
+                        <input type="radio" id="suite-royal" name="suite-preference" value="royal-suites" required>
                     </label>
                     <p>Royal Suite</p>
                 </div>
@@ -129,8 +132,8 @@
                     aria-label="Visit our Facebook page (it opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener" 
-                aria-label="Visit our Instagram page (it opens in new tab)"><i class="fa-brands fa-instagram"></i>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (it opens in new tab)"><i class="fa-brands fa-instagram"></i>
                 </a>
             </li>
             <li>
