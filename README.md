@@ -9,8 +9,8 @@ Welcome to the Canine Comforts Hotel! Our hotel provides a luxurious and safe en
 - [The Structure Plane](#the-structure-plane)
 - [The Skeleton Plane](#the-skeleton-plane)
 - [The Surface Plane](#the-surface-plane)
-- [Project Files](#project-files)
 - [How to Run the Project](#how-to-run-the-project)
+- [Credits](#credits)
 
 ## The Strategy Plane
 
@@ -41,7 +41,7 @@ These user stories are derived from thorough online research, personal experienc
 During the planning phase of the Canine Comforts Hotel website, I prioritized the essential features that align with our user stories. Some advanced features were postponed due to time constraints but are planned for future updates.
 
 ### Features Implemented at Launch
-- **Home Page:** Introduces the hotel with a welcoming message and displays operating hours.
+- **Home Page:** Introduces the hotel with a welcoming message.
 - **Navigation Bar:** Fully functional and intuitive navigation bar allowing users to easily access different pages.
 - **Accommodation Page:** Provides detailed information about the various accommodation options available for dogs.
 - **Sign-Up Page:** Enables users to register their dogs and book accommodations through a comprehensive form.
@@ -78,7 +78,9 @@ These decisions were based on balancing the feasibility of implementation within
 - **#292828:**
   - Main text color
   - Icons
-  - Headers and subheaders
+  - Headers and subheaders!
+  [alt text](docs/images/maintext.png)
+
 
 - **#FFFFFF:**
   - Header background
@@ -86,25 +88,31 @@ These decisions were based on balancing the feasibility of implementation within
   - Background color for various sections
   - Footer background
   - Text on darker backgrounds
+  ![alt text](docs/images/ffffff.png)
 
 - **#7D481A:**
   - Table background
   - Borders for table cells
   - Background color for some sections
+    ![alt text](docs/images/tablebackground.png)
 
 - **#544F4F:**
   - Table header background
+    ![alt text](docs/images/tableheaderbck.png)
 
 - **#87603C:**
   - Background gradient start
   - Footer background
+  ![alt text](docs/images/backgroungradient.png)
 
 - **#C59C3D:**
   - Background gradient end
+  ![alt text](docs/images/backgroundgradientend.png)
 
 - **#EBF0F0:**
   - Input fields background
   - Form backgrounds
+  ![alt text](docs/images/inputfields.png)
 
 ### Fonts
 Both fonts used in this project are Google Fonts.
@@ -395,7 +403,7 @@ During development, the webpage was mainly tested on Google Chrome. However, dur
 
 The main branch of this repository contains the latest version of the project and has been used for the deployed version of the site. The project was created using a standard HTML/CSS template suitable for GitHub Pages.
 
-### Steps for Deployment
+### How to Run the Project
 
 1. **Using the Template:**
    - Click the "Use this template" button on the repository page.
