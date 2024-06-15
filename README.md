@@ -79,7 +79,6 @@ The following table outlines the feasibility and importance of each feature, whi
 |--------------------------|-------------|------------|
 | Navigation               | 5           | 5          |
 | Home Page Introduction   | 5           | 5          |
-| Operating Hours Display  | 5           | 5          |
 | Accommodation Details    | 5           | 5          |
 | Sign-Up Page             | 5           | 5          |
 | Social Media Links       | 5           | 5          |
@@ -97,7 +96,7 @@ These decisions were based on balancing the feasibility of implementation within
   - Main text color
   - Icons
   - Headers and subheaders!
-  [alt text](docs/images/maintext.png)
+  ![alt text](docs/images/maintext.png)
 
 
 - **#FFFFFF:**
@@ -468,7 +467,7 @@ By following these steps, you can deploy and manage your own version of the proj
 
 ## Images :
 
--Pexels
+- Pexels
 
 [Top Dog image](https://www.pexels.com/photo/husky-lying-down-on-grass-20139245/)
 [First circular img indexpage](https://www.pexels.com/photo/photo-of-two-brown-dogs-2803295/)
