@@ -1,5 +1,11 @@
 # Canine Comforts Hotel
 
+[Link to live page](https://robertdivkovic.github.io/canine-comforts-hotel/)
+
+![alt text](docs/testing/responsive.png)
+
+
+## Introduction
 Welcome to the Canine Comforts Hotel! Our hotel provides a luxurious and safe environment for your dogs while you are away on business trips or vacations. We are located in the serene surroundings of Vienna's 21st District, Floridsdorf, offering a perfect getaway for your furry friends. Our hotel is designed to cater to the needs of dogs of all breeds and sizes, ensuring they enjoy their stay just as much as you enjoy your time away. Below is an overview of our project's UX design, including the strategy, scope, structure, skeleton, and surface planes.
 
 ## Table of Contents
@@ -11,6 +17,18 @@ Welcome to the Canine Comforts Hotel! Our hotel provides a luxurious and safe en
 - [The Surface Plane](#the-surface-plane)
 - [How to Run the Project](#how-to-run-the-project)
 - [Credits](#credits)
+
+# UX - User Experience Design
+
+A user experience designer, Jesse James Garrett, introduced five UX design elements in his book *The Elements of User Experience*. In the book, he explains the steps of user experience projects and what UX designers should consider at each stage. This is where most of my planning process steps came from.
+
+The 5 planes of UX are as below:
+
+- **The Strategy Plane**
+- **The Scope Plane**
+- **The Structure Plane**
+- **The Skeleton Plane**
+- **The Surface Plane**
 
 ## The Strategy Plane
 
@@ -460,9 +478,11 @@ By following these steps, you can deploy and manage your own version of the proj
 Code :
 
 - [Code Institute, Love running project](https://github.com/RobertDivkovic/love-running)
+- Inspiration
 
 - [Flaticon](https://www.flaticon.com/free-icon/pet-hotel_1131938?term=pet+hotel&page=1&position=4&origin=tag&related_id=1131938)
 - [Flaticon](https://www.flaticon.com/authors/justicon)
+- Used for icons
 
 
 ### I appreciate everyone who took time and read this
